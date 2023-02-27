@@ -36,9 +36,9 @@ Make sure you do not prefix keys here with `NEXT_PUBLIC` in order not to leak im
 
 ### Client Schema
 
-Define your client-side environment variables schema here.
+Define your client-side environment variable schema here. 
 
-To expose them to the client you need to prefix them with `NEXT_PUBLIC`. Validation will fail if you don't to help you detect invalid configuration.
+To expose these variables to the client, you need to prefix them with `NEXT_PUBLIC`. Validation will fail if you don't do this, which will help you detect invalid configurations.
 
 ### processEnv Object
 
